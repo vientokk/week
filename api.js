@@ -3,7 +3,6 @@ const app = express();
 const PORT = 3000;
 const uuidAPIKey = require('uuid-apikey');
 
-
 const server = app.listen(PORT, () => {
     console.log('start server');
 })
